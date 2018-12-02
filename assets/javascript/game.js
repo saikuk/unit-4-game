@@ -24,22 +24,20 @@ function randomInt(){
 }
 var randNum = randomInt();
 
+
 function reset() {
     startNum = 0;
     $('#score').text(startNum);
    
-    var randNum = randomInt();
-    console.log(randNum)
+	randNum = randomInt();
 	$('#target_number').text(randNum);
-
 }
 
 $('.crystal-button').on('click', function(){
 	
 	var num = parseInt($(this).attr('info'));
 	startNum = startNum + num;
-		 
-	$('#starting-number').text(startNum);
+	
 	$('#score').text(startNum);
 	$('#target_number').text(randNum);
   
