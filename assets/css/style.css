@@ -1,0 +1,95 @@
+body {
+    background-image: url("../images/morocco-blue.png")
+}
+
+.container {
+	width: 500px;
+	margin: auto 10;
+
+}
+
+h1 {
+        background-color:#d67424;
+        color: rgb(255, 255, 255);
+		width: 300px;
+		height: 50px;
+		margin: 10px;
+		padding: 5px;
+		padding-top: 21px;
+		text-align: center;
+		clear: both;
+		font-weight: 40px;
+		font-size: 35px;
+
+	}
+
+img{
+		width: 75px;
+		height: 75px;
+		padding-right: 20px;
+	}
+
+#instruction {
+    background-color: #ffffcc;
+    margin: 10px;
+    padding: 10px;
+	color: green;
+	width: 400px;
+	height: 300px;
+	font-size: 15px;
+	font-weight: bold;
+	margin-bottom: 10px;
+}	
+
+.row{
+    margin-left: 10px;
+}
+
+#target_number{
+    padding: 10px;
+}
+
+#list {
+	background-color: green;
+	width: 150px;
+	height:85px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	font-size: 25px;
+	font-weight: 15px;
+}
+
+#scoreBoard {
+	background-color: rgb(20, 240, 240);
+	width: 100px;
+	height:60px;
+	padding: 15px 20px 10px 15px;
+	margin-left: 160px;
+	margin-top: -25px;
+	clear: both;
+	font-size: 18px;
+}
+
+
+#scoreList {
+	background-color: #0e8f8f;
+	color: white;
+	width: 200px;
+	height:20px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	padding: 10px;
+}
+
+#currentScore {
+	background-color: #0e8f8f;
+	color: white;
+	width: 200px;
+	height:80px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	padding: 10px;	
+	font-weight: bold;
+	font-size: 25px;
+
+}
